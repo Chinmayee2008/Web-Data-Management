@@ -1,0 +1,49 @@
+.user-management-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.user-management-container {
+    background: url('https://www.texashealth.org/-/media/Project/THR/shared/Header-Images/Header-Facility-Arlington.jpg?h=960&iar=0&w=1920&hash=71FCD5B2FD8FC0C32ABB134DADFFCFF7') center center no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 1rem 0;
+    color: #fff;
+}
+
+.user-list {
+    margin-top: 2rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-list th, .user-list td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.admin-actions {
+    margin-top: 1rem;
+}
+
+.admin-button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.activate {
+    background-color: #28a745;
+}
+
+.deactivate {
+    background-color: #dc3545;
+}

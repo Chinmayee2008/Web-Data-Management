@@ -1,0 +1,12 @@
+/* AnalyticsDashboardPage.css */
+.analytics-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .analytics-dashboard h1 {
+    margin-bottom: 20px;
+  }
+  

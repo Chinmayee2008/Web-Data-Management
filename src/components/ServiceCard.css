@@ -1,0 +1,31 @@
+/* components/ServiceCard.css */
+
+.service-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-image {
+    width: 100%;
+    height: 200px; /* Adjust as necessary */
+    object-fit: cover; /* This will make sure to cover the whole area */
+}
+
+.service-info {
+    padding: 10px 15px;
+    text-align: center; /* Center the title text */
+}
+
+.service-title {
+    margin-top: 10px;
+    font-size: 1.2rem; /* Larger font size for visibility */
+}

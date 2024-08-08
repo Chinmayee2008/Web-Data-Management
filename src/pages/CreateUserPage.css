@@ -1,0 +1,61 @@
+/* CreateUserPage.css */
+
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://www.christushealth.org/-/media/christus-health/universal/hero/home-mobile-hero-images-639x339/physcianscollaborating639x339.jpg'); /* Update this path */
+    background-size: cover;
+    background-position: center;
+}
+
+.signup-form-container {
+    background: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.signup-form input {
+    padding: 0.75em;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.signup-form button {
+    padding: 0.75em;
+    margin-top: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #0056b3;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}

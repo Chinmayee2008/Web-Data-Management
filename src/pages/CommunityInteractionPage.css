@@ -1,0 +1,41 @@
+/* CommunityInteractionPage.css */
+
+.community-page {
+    font-family: Arial, sans-serif;
+}
+
+.post-submission {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.forum-posts {
+    border-top: 2px solid #ccc;
+    padding-top: 20px;
+}
+
+.post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}

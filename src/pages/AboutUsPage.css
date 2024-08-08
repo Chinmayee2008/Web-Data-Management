@@ -1,0 +1,43 @@
+/* AboutUsPage.css */
+
+.about-page {
+    text-align: center;
+    padding-top: 60px; /* Adjust based on your navbar height */
+    background-color: #f0f0f0; /* or any background color you prefer */
+    min-height: 100vh;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.our-mission,
+.our-team {
+    margin-top: 20px;
+}
+
+.team-member {
+    display: inline-block;
+    margin: 20px;
+    text-align: left;
+}
+
+.team-member img {
+    width: 150px; /* Adjust the image size as needed */
+    height: 150px;
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    margin: 5px 0;
+}
+
+.team-member p {
+    font-size: 0.9em;
+}

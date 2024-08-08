@@ -1,0 +1,60 @@
+/* ContactUsPage.css */
+.contact-page-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.contact-image-wrapper {
+    flex: 1;
+    background-image: url('https://cdn.britannica.com/72/126772-050-BC651FF5/Norwich-University-Hospital-Norfolk-England-National-Health.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-form-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff; /* Adjust the background color if needed */
+}
+
+.contact-form-container {
+    width: 100%;
+    max-width: 500px; /* Adjust the width as needed */
+}
+
+.contact-form-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333; /* Adjust the color as needed */
+}
+
+.contact-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form-container .submit-btn {
+    padding: 1rem;
+    background-color: #007bff; /* Adjust the button color as needed */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form-container .submit-btn:hover {
+    background-color: #0056b3;
+}
